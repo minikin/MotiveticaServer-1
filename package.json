@@ -4,6 +4,7 @@
   "description": "Backend for Motivetica iOS App",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,9 +12,11 @@
     "url": "git+https://github.com/spiilka/MotiveticaServer.git"
   },
   "keywords": [
-    "node",
-    "parse",
-    "js"
+    "Node",
+    "Parse",
+    "JS",
+    "API",
+    "Server"
   ],
   "author": "Sasha Prokhorenko",
   "license": "MIT",
@@ -23,8 +26,10 @@
   "homepage": "https://github.com/spiilka/MotiveticaServer#readme",
   "dependencies": {
     "express": "^4.15.5",
+    "kerberos": "0.0.23",
     "moment": "^2.18.1",
     "parse": "^1.10.0",
+    "parse-dashboard": "^1.1.0",
     "parse-server": "^2.6.2"
   }
 }
