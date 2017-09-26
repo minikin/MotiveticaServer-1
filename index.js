@@ -7,7 +7,6 @@ const app = express();
 const currentOS = os.type();
 let config = '';
 
-
 if (currentOS == 'Darwin') {
    config = require('./local.dev.config.json');
    console.log('In production generate real secure keys!');
@@ -51,7 +50,11 @@ app.use('/parse', api);
 app.use('/dashboard', dashboard);
 
 app.get('/', function(req, res) {
-  res.status(200).send('Motivetica : I dream of being a website!');
+  res.sendFile(path.join(__dirname+'/index.html'));
+});
+
+app.get('/motivetica', function(req, res) {
+  res.sendFile(path.join(__dirname+'/motivetica.png'));
 });
 
 const port = process.env.PORT || 4040;
