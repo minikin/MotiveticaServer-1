@@ -19,3 +19,10 @@ Read the full Parse Server guide here: https://github.com/ParsePlatform/parse-se
 ## Server Side Development
 
 _We'll add it soon_
+
+
+## License
+
+Motivetica's codebase is released under the MIT license. [See LICENSE](https://github.com/spiilka/MotiveticaServer/blob/develop/LICENSE) for details.
+
+Design and assets are released under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.](https://creativecommons.org/licenses/by-nc-nd/4.0/)
