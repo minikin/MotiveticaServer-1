@@ -1,6 +1,10 @@
 
 # Created by https://www.gitignore.io/api/node,macos
 
+### Ignore App keys ###
+/app.config.json
+/config.txt
+
 ### macOS ###
 *.DS_Store
 .AppleDouble
